@@ -67,7 +67,7 @@ namespace InterfaceExercise
 
             foreach(var item in comp)
             {
-                Console.WriteLine($"Is a Domestic made vehicle {item.Domestic}, has the {item.Logo} Logo");
+                Console.WriteLine($"Has the {item.Logo} Logo , Is a Domestic made vehicle {item.Domestic}.");
                 Console.WriteLine();
             }
 
